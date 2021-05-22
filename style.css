@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+#logo {
+  width: 100px;
+  height: 80px;
+}
+
+#pages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+#subpages {
+  float: left;
+}
+
+#subpages a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#subpages a:hover {
+  background-color: turquoise;
+}
+#subpages {
+  border-right: 1px solid turquoise;
+}
+#subpages:last-child {
+  border-right: none;
+}
+
+.carousel-item img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  height: 648px;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+  margin-left: -150px;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  margin-right: -150px;
+}
+
+#benefits {
+  list-style-type: disc !important;
+  padding-left: 1em !important;
+  margin-left: 1em;
+}
+#benefit {
+list-style-position: inside;
+}
+
+/* ---Media Queries --*/ 
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
