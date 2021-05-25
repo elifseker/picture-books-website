@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 #logo {
   width: 100px;
   height: 80px;
+  border-radius: 30px;
 }
 
 #pages {
@@ -42,10 +42,6 @@
   margin-right: auto;
 }
 
-.carousel-inner {
-  height: 648px;
-}
-
 .carousel-control-prev-icon {
   background-color: black;
   margin-left: -150px;
@@ -56,6 +52,11 @@
   margin-right: -150px;
 }
 
+.slides-cite {
+  display: flex;
+  justify-content: center;
+}
+
 #benefits {
   list-style-type: disc !important;
   padding-left: 1em !important;
@@ -63,6 +64,11 @@
 }
 #benefit {
 list-style-position: inside;
+}
+
+.scroll {
+  max-height:200px;
+  overflow-y: auto;
 }
 
 /* ---Media Queries --*/ 

@@ -23,17 +23,125 @@
             <div class="pages navbar">
                 <ul id="pages">
                     <li id="subpages"><a href="index.html">Home</a></li>
-                    <li id="subpages"><a href="sub1.html">Sub1</a></li>
-                    <li id="subpages"><a href="sub2.html">Sub2</a></li>
-                    <li class="active" id="subpages"><a href="sub3.html">Sub3</a></li>
+                    <li id="subpages"><a href="sub1.html">Toddler Books</a></li>
+                    <li id="subpages"><a href="sub2.html">Early Picture Books</a></li>
+                    <li class="active" id="subpages"><a href="sub3.html">Easy Readers</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <main class="container mt-10">
+        <div class="jumbotron">
+            <h1 class="display-4">Easy Readers</h1>
+            <p class="lead">Easy reader books are for children just starting
+                to read on their own (age 6-8), and have illustrations on every page like a picture book.
 
+                The length varies greatly by publisher; the books can be 32-64 pages long, with 200-1500 words of text,
+                occasionally going up to 2000 words. The stories are told mainly through action and dialogue, in
+                grammatically simple sentences (one idea per sentence). Books average 2-5 sentences per page. </p>
+            <hr class="my-4">
+        </div>
+        <section>
+            <div class="container">
+                <div class="row gap100">
+                    <div id="review" class="col-md-6">
+
+                        <h2>Penny and Her Marble</h2>
+                        <h4>by Kevin Hankes</h4>
+                        <p>
+                            Caldecott Medalist Kevin Henkes’s award-winning Penny returns in the third I Can Read story
+                            about a sweet and curious mouse, perfect for fans of Lilly’s Purple Plastic Purse, Owen, and
+                            Chrysanthemum.
+
+                            When Penny spots a marble in Mrs. Goodwin's front yard, she picks it up, puts it in her
+                            pocket, and takes it home. It's a beautiful marble—it's big, shiny, blue, smooth, and fast,
+                            and Penny loves it. But does the marble really belong to Penny?
+
+                            Penny and Her Marble was named a 2014 Geisel Honor book by the American Library Association.
+                            This annual award, given to the most distinguished books for beginning readers, is named for
+                            the world-renowned children's author Theodor Geisel, also known as Dr. Seuss.
+
+                            Kevin Henkes is a master at creating beautifully illustrated books that resonate with young
+                            children. The Penny books are new classics for beginning readers and will appeal to fans of
+                            Frog and Toad, Little Bear, and Henry and Mudge. Penny and Her Marble is a Level One I Can
+                            Read book, which means it's perfect for children learning to sound out words and sentences.
+                            Whether shared at home or in a classroom, the short sentences, familiar words, and simple
+                            concepts of Level One books support success for children eager to start reading on their
+                            own.
+
+                            Don't miss Penny's newest adventures in Penny and Her Sled!
+
+                        </p>
+                        <p>Buy this book from amazon: <a
+                                href="https://www.amazon.com/Penny-Her-Marble-Read-Level/dp/0062082051"
+                                target="_blank">Go to Amazon.</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/penny.jpeg" class="img-fluid" alt="penny and her marble">
+                        <cite class="slides-cite">image taken from:https://www.amazon.com/dp/0062082051</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-6 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Comments:</h4>
+                            <hr>
+                            <div class="scroll">
+                                <ul id="comments">
+                                    <li>
+                                        <b>Heidi</b> - For a first time reader or for any child who has been read to,
+                                        this is a wonderful book to help express their feelings. Penny is such a nice
+                                        little mouse, and she wants to do the right thing.
+                                    </li>
+                                    <li><b>Adam</b> - This is an amazing book, it has a wonderful story, a moral dilemma
+                                        that a child needs to learn.</li>
+                                </ul>
+                                <i>Did you read this book? Share your thoughts with us:</i>
+                                <form id="commentForm">
+                                    <input type="text" class="form-control" name="name" placeholder="name">
+                                    <br>
+                                    <input type="text" class="form-control" name="comment"
+                                        placeholder="write your comment here...">
+                                    <br>
+                                    <button type="submit" class="btn btn-primary">Post Comment</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">More books by Kevin Henkes:</h4>
+                            <hr>
+                            <div class="scroll">
+                                <ul>
+                                    <li>Chrysanthemum</li>
+                                    <li>Owen</li>
+                                    <li>Billy Miller Makes a Wish</li>
+                                    <li>Waiting </li>
+                                    <li>Birds</li>
+                                    <li>My Garden</li>
+                                    <li>Penny and Her Song</li>
+                                    <li>When Spring Comes</li>
+                                    <li>Winter is Here</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </main>
+    <br>
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <!--- Subscribe Button -->
@@ -60,6 +168,7 @@
             <span>&copy; Let's Read 2021</span>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
